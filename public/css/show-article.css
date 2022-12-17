@@ -1,0 +1,45 @@
+.article-container {
+    padding-bottom: 10rem;
+    width: 100%;
+}
+
+.article-cover-img {
+    height: 50rem;
+    background-size: cover;
+    width: 100%;
+    border-radius: .3rem;
+}
+
+.article-title {
+    margin: 3rem 0;
+    text-align: left;
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.article-author {
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+.article-back {
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.action {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 2rem;
+}
+
+.article-content {
+    white-space: pre-wrap;
+}
