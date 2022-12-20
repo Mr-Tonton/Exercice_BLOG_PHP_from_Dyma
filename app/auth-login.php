@@ -1,7 +1,7 @@
 <?php
 
-require_once './database/database.php';
-$authDB = require_once('./database/security.php');
+require_once __DIR__ . '/database/database.php';
+$authDB = require_once __DIR__ . '/database/security.php';
 
 const ERROR_REQUIRED = 'Veuillez renseigner ce champ';
 const ERROR_PASSWORD_MISMATCH = 'Le mot de passe n\'est pas valide';
